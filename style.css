@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.top-container {
+    background-color: hsl(10, 79%, 65%);
+    width: 350px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 10px;
+}
+.bottom-container {
+    background-color: hsl(33, 100%, 98%);
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    height: 35px;
+    margin-top: 10px;
+}
+#balance {
+    color: hsl(33, 100%, 98%);
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#amount {
+    color: hsl(33, 100%, 98%);
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    
+}
+#text {
+    color:hsl(25, 47%, 15%) ;
+    font-size: 20px;
+    font-weight: 700;
+}
+#bar1 {
+    background-color:hsl(10, 79%, 65%) ;
+    width: 30px;
+    height: 27px;
+    border-radius: 4px;
+}
+#bar2 {
+    background-color:hsl(10, 79%, 65%) ;
+    width: 30px;
+    height: 60px;
+    border-radius: 4px;
+    
+}
+#bar3 {
+    background-color:hsl(186, 34%, 60%) ;
+    width: 30px;
+    height: 95px;
+    border-radius: 4px;
+}
+#bar4 {
+    background-color:hsl(10, 79%, 65%) ;
+    width: 30px;
+    height: 57px;
+    border-radius: 4px;
+}
+#bar5 {
+    background-color:hsl(10, 79%, 65%) ;
+    width: 30px;
+    height: 48px;
+    border-radius: 4px;
+}
+#bar6 {
+    background-color:hsl(10, 79%, 65%) ;
+    width: 30px;
+    height: 85px;
+    border-radius: 4px;
+}
+#bar7 {
+    background-color:hsl(10, 79%, 65%) ;
+    width: 30px;
+    height: 57px;
+    border-radius: 4px;
+}
+.bar-chart {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+#day {
+    color:hsl(28, 10%, 53%) ;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+hr {
+    border: solid hsl(28, 10%, 53%)  1px;
+    opacity: 0.2;
+}
+.below {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#below-text {
+    color: hsl(28, 10%, 53%);
+    font-size: 11px;
+}
+#figures {
+    color: hsl(25, 47%, 15%);
+}
+h4 + h3 {
+    display: none;
+}
+h4:hover + h3 {
+    display: block;
+    color: blue;
+}
